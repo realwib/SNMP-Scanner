@@ -24,7 +24,7 @@ oid_map = {
 }
 
 # Community strings to test
-community_strings = ['hashinc', 'public']  # Add more community strings as needed
+community_strings = ['private', 'public']  # Add more community strings as needed
 
 # Set up logging
 logging.basicConfig(filename='snmp_scan.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
